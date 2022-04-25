@@ -1,0 +1,106 @@
+*{
+    margin: o;
+    padding: o;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main{
+    height: 100vh;
+    width: 100;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(hotel3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+ul{
+    float: right;
+    list-style-type: none;
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px transparent;
+    transition: 0.8s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: rgb(7, 193, 250);
+}
+.logo img{
+    float: left;
+    width: 120px;
+    height: 70px;
+}
+.title{
+    width: 85%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: #fff; 
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    position: absolute;
+    top: 210px;
+    left: 250px;
+     margin: 10px 0 40px ;
+ color: rgb(228, 221, 213);
+font-size: 74px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.title p{
+    margin: 10px 0 40px;
+    position: absolute;
+    top: 300px;
+    left: 320px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+.title a{
+    top: 350px;
+    left: 470px;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    color: rgb(7, 193, 250);
+    border-bottom: 2px transparent;
+}
+.title a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(7, 193, 250);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 1s;
+}
+.title a:hover::after{
+    width: 230px;
+}
+button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: solid 1px rgb(7, 193, 250);
+    padding: 5px 20px;
+    color: antiquewhite;
+    background: transparent;
+    border-radius: 10px 5px;
+    position: absolute;
+    left: 600px;
+    top: 470px;
+}
+button:hover{
+    background-color: rgb(7, 193, 250);
+    color: #fff;
+    transition: 0.9s;
+}
+
